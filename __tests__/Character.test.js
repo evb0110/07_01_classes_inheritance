@@ -7,8 +7,8 @@ test('testing creation of a character', () => {
     type: 'Студент',
     level: 1,
     attack: 100,
-    defence: 200
-  }
+    defence: 200,
+  };
 
   expect(character).toEqual(expected);
 });
